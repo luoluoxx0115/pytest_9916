@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -0.1 == 0.3",
+      "children" : [ {
+        "name" : "test_add[add_failed]",
+        "uid" : "91707a1da2950d5b",
+        "parentUid" : "fb1e0065dc0c3c9adac6ca28b9995c4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613559262836,
+          "stop" : 1613559262837,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "-0.2", "0.3" ]
+      } ],
+      "uid" : "fb1e0065dc0c3c9adac6ca28b9995c4a"
+    }, {
+      "name" : "AssertionError: assert 2 == 0",
+      "children" : [ {
+        "name" : "test_sub[sub_failed]",
+        "uid" : "b69ef3ab18034a24",
+        "parentUid" : "bf400aba089841ffef47daa7d4136af6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613559264197,
+          "stop" : 1613559264198,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "0" ]
+      } ],
+      "uid" : "bf400aba089841ffef47daa7d4136af6"
+    }, {
+      "name" : "AssertionError: assert 0 == 2",
+      "children" : [ {
+        "name" : "test_mul[mul_failed]",
+        "uid" : "1428d38c2e8428d7",
+        "parentUid" : "97c418fc19b873723e78392ef7f8a96c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613559264254,
+          "stop" : 1613559264255,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "2" ]
+      } ],
+      "uid" : "97c418fc19b873723e78392ef7f8a96c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_div[div_failed]",
+        "uid" : "7fc4d355d0a2f3b4",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613559264309,
+          "stop" : 1613559264310,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "0" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
